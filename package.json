@@ -1,0 +1,19 @@
+{
+  "name": "job-watch",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "schedule": "node src/scheduler.js",
+    "get-chat-id": "node src/get-chat-id.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "fast-xml-parser": "^5.9.3"
+  }
+}
