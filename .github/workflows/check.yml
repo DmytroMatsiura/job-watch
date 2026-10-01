@@ -29,7 +29,7 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          DOU_SEARCH_QUERY: ${{ secrets.DOU_SEARCH_QUERY }}
+          DOU_SEARCH_QUERIES: ${{ secrets.DOU_SEARCH_QUERIES }}
 
       - name: Commit updated state
         run: |
