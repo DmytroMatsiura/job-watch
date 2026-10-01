@@ -1,7 +1,8 @@
 name: Check DOU vacancies
 
 on:
-  # Scheduled runs moved to Hetzner; kept as manual trigger only.
+  schedule:
+    - cron: "*/5 * * * *"
   workflow_dispatch: {}
 
 permissions:
